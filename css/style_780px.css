@@ -1,0 +1,13 @@
+/* Featured App Styles */
+
+.featured {
+    justify-content: space-between;
+}
+
+figure {
+    width: calc((100% - 40px)/3);
+}
+
+.app {
+    width: calc((100% - 40px)/3);
+}

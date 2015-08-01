@@ -1,0 +1,84 @@
+body {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Header Styles */
+
+header,
+hr {
+    width: 100%;
+}
+
+.logo {
+    width: 33.33%;
+    max-width: 150px;
+    max-height: 150px;
+    margin: 10px auto;
+    display: block;
+}
+
+.name-and-title {
+    font-family: "Droid Serif", serif;
+    color: #1230c4;
+}
+
+.name {
+    font-weight: 100;
+}
+
+.title {
+    font-weight: 200;
+}
+
+/* Hero Image Styles */
+
+.hero {
+    width: 100%;
+    margin: 19px 0 0 0;
+}
+
+/* Featured App Styles */
+
+.featured-heading {
+    width: 100%;
+    font-weight: 100;
+    color: #c41230;
+    text-align: left;
+}
+
+.featured {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.app {
+    margin: 0 auto 18px auto;
+    width: calc(100% / 1.618)
+}
+
+.app-image {
+    width: 100%;
+}
+
+.app-name {
+    color: #30c412;
+    margin: 5px auto;
+    font-size: 14px;
+}
+
+.url {
+    color: #737373;
+    font-size: 12px;
+    text-decoration: none;
+    display: block;
+    margin: 0 0 10px 0;
+}
+
+@media screen and (min-width: 450px) {
+    .featured-heading {
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "p1",
+  "version": "0.0.0",
+  "description": "Brian Konzman's Portfolio",
+  "main": "index.html",
+  "keywords": [
+    "udacity",
+    "portfolio",
+    "nanodegree"
+  ],
+  "authors": [
+    "Brian Konzman, SJ"
+  ],
+  "license": "MIT",
+  "homepage": "https://konzman.org",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0",
+    "paper-material": "PolymerElements/paper-material#~1.0.1"
+  }
+}

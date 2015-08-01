@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Konzman Collection</title>
+    <!-- polyfills -->
+    <script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
+    <!-- polymer elements -->
+    <link rel="import" href="bower_components/paper-material/paper-material.html">
+    <!-- external css -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:100,700%7CDroid+Serif">
+    <!-- local css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_580px.css" media="screen and (min-width: 580px)">
+    <link rel="stylesheet" href="css/style_780px.css" media="screen and (min-width: 780px)">
+</head>
+<body>
+    <header>
+        <img class="logo" src="images/jesuits_logo.svg" alt="Image of Jesuit Seal">
+        <div class="name-and-title">
+            <h1 class="name">Brian Konzman, SJ</h1>
+            <h4 class="title">Frontiers and Front-Ends</h4>
+        </div>
+    </header>
+    <hr>
+    <img class="hero"
+         src="images/andes_400x225.jpg"
+         srcset="images/andes_400x225.jpg 400w,
+                 images/andes_800x450.jpg 800w,
+                 images/andes_1200x675.jpg 1200w,
+                 images/andes_1600x900.jpg 1600w,
+                 images/andes_2000x1125.jpg 2000w,
+                 images/andes_2400x1350.jpg 2400w,
+                 images/andes_2800x1575.jpg 2800w"
+         sizes="(min-width: 900px) 50vw,
+                100vw"
+         alt="Image of Climbing the Andes">
+    <h3 class="featured-heading">Featured Work</h3>
+    <!-- todo: replace feature app placeholders with actual projects-->
+    <main class="featured">
+        <paper-material class="app" elevation="2">
+            <img class="app-image"
+                 src="images/marble_600x400.jpg"
+                 srcset="images/marble_600x400.jpg 600w,
+                         images/marble_300x200.jpg 300w"
+                 sizes="(max-width: 499px) 60vw,
+                        (min-width: 580px) and (max-width: 779px) 47vw,
+                        (min-width: 780px) 30vw"
+                 alt="Image from NASA of Earth from Space">
+                <h6 class="app-name">BLACK MARBLE</h6>
+                <a class="url" href="http://1.usa.gov/1h6x2eE">http://1.usa.gov/1h6x2eE</a>
+        </paper-material>
+        <paper-material class="app" elevation="2">
+            <img class="app-image"
+                 src="images/tjp_600x400.jpg"
+                 srcset="images/tjp_600x400.jpg 600w,
+                         images/tjp_300x200.jpg 300w"
+                 sizes="(max-width: 499px) 60vw,
+                        (min-width: 580px) and (max-width: 779px) 47vw,
+                        (min-width: 780px) 30vw"
+                 alt="Image of Brian Presenting to The Jesuit Post">
+                <h6 class="app-name">THE JESUIT POST</h6>
+                <a class="url" href="https://thejesuitpost.org">https://thejesuitpost.org</a>
+        </paper-material>
+        <paper-material class="app" elevation="2">
+            <img class="app-image"
+                 src="images/garden_600x400.jpg"
+                 srcset="images/garden_600x400.jpg 600w,
+                         images/garden_300x200.jpg 300w"
+                 sizes="(max-width: 499px) 60vw,
+                        (min-width: 580px) and (max-width: 779px) 47vw,
+                        (min-width: 780px) 30vw"
+                 alt="Image of a Girl Preparing to Destroy a Garden">
+                <h6 class="app-name">SECRET GARDEN</h6>
+                <a class="url" href="https://github.com/bgkonzman">https://github.com/bgkonzman</a>
+        </paper-material>
+    </main>
+</body>
+</html>
